@@ -57,8 +57,8 @@ services:
       - 81:80
     environment:
       WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: faraday_user
-      WORDPRESS_DB_PASSWORD: faraday_password
-      WORDPRESS_DB_NAME: faraday
+      WORDPRESS_DB_USER: mydb_user
+      WORDPRESS_DB_PASSWORD: mydb_password
+      WORDPRESS_DB_NAME: mydb
     volumes:
       - /var/lib/docker/volumes/wordpress:/var/www/html
